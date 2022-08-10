@@ -4,17 +4,25 @@
     box-sizing: border-box;
 }
 
+
 body {
+    background: url(./Translator-Apps-for-iPhone-Device.webp);
     background-color: #677981;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 section {
     background: white;
     padding: 2rem
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
 }
 
 .text-input {
@@ -40,11 +48,9 @@ section {
 
 .second-option {
     margin-left: 13.5rem;
+    position: inhert;
 }
 
-/* select.second-option {
-   
-} */
 
 button {
     width: 100%;
